@@ -144,6 +144,8 @@ The response to queries includes the standard information plus the list of token
 }
 ```
 
+The tokens are created by ELSER. They can be single characters or full words. There are even tokens in these lists that are not in the original text if they are semantically similar. Stop words don't have to be removed manually. ELSER determines automatically whether or not certain stop words should be added to the list of tokens.
+
 ## Next Steps
 
 To learn more, check out the [Watsonx.ai](https://eu-de.dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-overview.html?context=wx&audience=wdp) documentation and the [Watsonx.ai](https://www.ibm.com/products/watsonx-ai) landing page.
