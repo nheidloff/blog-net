@@ -19,7 +19,7 @@ Usually, there are many ways to run queries against search engines, databases, A
 
 There are several different metrics to evaluate search results. This post describes offline metrics which utilize fixed datasets. Some metrics are order-unaware (Recall@K), others are order-aware (MRR@K, MAP@K, NDCG@K).
 
-# Recall@K
+## Recall@K
 
 Recall and Precision are easy to interpret metrics for search evaluations. Let's recap when they are used and how they refer to accuracy and F1-scores.
 
@@ -46,7 +46,7 @@ To calculate Recall@2 the first two documents are used in no particular order. T
 
 Recall@2 = True Positives in top 2 / (all True Positives + all False Negatives) = 1 / (1 +3) = 0.25
 
-# MRR@K
+## MRR@K
 
 MRR, MAP and NDCG are order-aware metrics. There is a great video [Evaluation Measures for Search and Recommender Systems](https://www.youtube.com/watch?v=BD9TkvEsKwM) explaining them.
 
@@ -54,7 +54,7 @@ Mean Reciprocal Rank (MRR) defines how good a retrieval system is to return a re
 
 MRR is utilized for use cases where the rank of the first relevant result is important, e.g., the "Google I'm feeling lucky" button.
 
-# MAP@K
+## MAP@K
 
 The disadvantage of MRR is that only the top document is considered. Other use cases like comparative questions in Question Answering scenarios require multiple relevant documents.
 
@@ -66,7 +66,7 @@ Mean Average Precision (MAP) addresses this shortcoming by considering the order
 
 As for MRR, multiple queries are run. Instead of calculating the Recall, Precision is computed by using relevant and non-relevant documents from the returned lists (not the complete dataset). Next the average precision is computed which only considers relevant documents. Last the [mean](https://www.cuemath.com/data/difference-between-average-and-mean/) is calculated for the sample of data.
 
-# NDCG@K
+## NDCG@K
 
 While the relevance for MAP can only be true or false, Normalized Discounted Cumulative Gain (NDCG) goes one step further and differentiates between different relevance scores. NDCG is a powerful metrics useful for many scenarios. For example, for Question Answering scenarios you typically need to pass multiple documents into prompts which should be the most relevant documents.
 
