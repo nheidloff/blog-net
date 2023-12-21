@@ -19,7 +19,7 @@ I've been in the IT industry for several years and have seen a lot. But I've nev
 
 ## Highlights
 
-As always it has been a pleasure to work with so many smart colleagues at IBM. While I had worked at developer and developer advocate earlier, this year I focused on AI and learned a lot from IBM's AI experts.
+As always it has been a pleasure to work with so many smart colleagues at IBM. While I had worked as developer and developer advocate earlier, this year I focused on AI and learned a lot from IBM's AI experts.
 
 Topics:
 
