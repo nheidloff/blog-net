@@ -9,7 +9,7 @@ permalink: /article/model-distillation-large-language-models/
 custom_permalink:
     - article/model-distillation-large-language-models/
 image: /assets/img/2023/09/model-distillation.png
-pin: true
+pin: false
 ---
 
 *Model Distillation is a very interesting concept to build small models which are almost as efficient as larger models for specific tasks. This post describes the concept in general and how it can be applied for Large Language Models.*
