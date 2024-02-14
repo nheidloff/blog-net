@@ -9,7 +9,7 @@ permalink: /article/fine-tune-small-llm-with-big-llm/
 custom_permalink:
     - article/fine-tune-small-llm-with-big-llm/
 image: /assets/img/2023/08/alpaca.png
-pin: true
+pin: false
 ---
 
 *The innovation in the AI space is continuing in an incredible speed. This post describes a new technique that has evolved recently which allows smaller fine-tuned models to almost reach the performance of much larger models.*
