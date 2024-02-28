@@ -146,8 +146,6 @@ python3 test-tgis.py
 {'generated_text': 'SELECT COUNT(*) FROM Employee'}
 ```
 
-
-
 ## Next Steps
 
 To learn more, check out the [Watsonx.ai](https://eu-de.dataplatform.cloud.ibm.com/docs/content/wsj/analyze-data/fm-overview.html?context=wx&audience=wdp) documentation and the [Watsonx.ai](https://www.ibm.com/products/watsonx-ai) landing page.

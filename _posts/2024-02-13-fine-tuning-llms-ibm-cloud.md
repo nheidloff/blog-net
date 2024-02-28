@@ -12,7 +12,7 @@ image: /assets/img/2024/02/v100.png
 pin: true
 ---
 
-*The speed of innovation in the AI community is amazing. What didn't seem to be a possible a year ago, is standard today. Fine-tuning is a great example. With the latest progress, you can fine-tune smaller models with cheap GPUs in little time. This post describes how to tune Mistral 7b on the IBM Cloud.*
+*The speed of innovation in the AI community is amazing. What didn't seem to be possible a year ago, is standard today. Fine-tuning is a great example. With the latest progress, you can fine-tune smaller models with cheap GPUs in little time. This post describes how to tune Mistral 7b on the IBM Cloud.*
 
 ## Context
 
