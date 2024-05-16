@@ -1,7 +1,7 @@
 ---
 id: nh-071
 title: 'Fine-tuning LLMs locally with Apple Silicon'
-date: 2024-05-14 10:01:00 +0100
+date: 2024-05-15 10:01:00 +0100
 author: 'Niklas Heidloff'
 layout: post
 guid: 'heidloff.net/nh-071'
